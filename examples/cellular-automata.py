@@ -13,7 +13,6 @@ except ImportError:
 
 import scrollphathd
 
-
 print("""
 Scroll pHAT HD: Cellular Automata
 

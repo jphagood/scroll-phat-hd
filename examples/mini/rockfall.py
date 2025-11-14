@@ -4,11 +4,12 @@ Little game for the Scroll HAT Mini.
 """
 
 import math
-import scrollphathd
 import time
+from random import random, shuffle
 
 from gpiozero import Button
-from random import random, shuffle
+
+import scrollphathd
 
 # ------------------------------------------------------------
 

@@ -1,8 +1,10 @@
 """Python library for the Pimoroni Scroll pHAT HD 17x7 pixel LED display."""
 import atexit
+
+import numpy
+
 from . import is31fl3731
 from .fonts import font5x7
-import numpy
 
 __version__ = '1.3.0'
 
