@@ -95,6 +95,7 @@ skip = """
 ./build,\
 ./dist.\
 """
+ignore-words-list = """Ehr"""
 
 [tool.isort]
 line_length = 200

@@ -448,7 +448,7 @@ def write_string(string, x=0, y=0, font=None, letter_spacing=1, brightness=1.0, 
     :param x: Offset x - distance of string from left of the buffer
     :param y: Offset y - distance of string from right of the buffer
     :param letter_spacing: Distance (in pixels) between characters
-    :param font: Font to use, defualt is to use the one specified with `set_font`
+    :param font: Font to use, default is to use the one specified with `set_font`
     :param brightness: Brightness of the pixels that comprise the text, from 0.0 to 1.0
     :param monospaced: Whether to space characters evenly using `font.width`
     :param fill_background: Not used
@@ -517,7 +517,7 @@ def clear_rect(x, y, width, height):
     :param x: Offset x - distance from left of buffer
     :param y: Offset y - distance from top of buffer
     :param width: Width of area (default is 17)
-    :param height: Heigh of area (default is 7)
+    :param height: Height of area (default is 7)
 
     """
     fill(0, x, y, width, height)
